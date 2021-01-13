@@ -13,9 +13,9 @@ import ReactDOM from 'react-dom';
 /*---------------------------
 | Components
 ---------------------------*/
-import SunAndMoon from './React/SunAndMoon.jsx';
+import Elsa from './React/Elsa.jsx';
 
 /*---------------------------
 | Render to DOM
 ---------------------------*/
-ReactDOM.render(<SunAndMoon />, document.getElementById('root'));
+ReactDOM.render(<Elsa />, document.getElementById('root'));
