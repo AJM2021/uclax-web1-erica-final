@@ -13,12 +13,11 @@ const imageOut = () => {
 
     return (
         <div>
-            <br></br>
-            <br></br>
+     
             Elsa
-            <br></br>
-            <br></br>
+
             <img src={ imageSrc } 
+            alt='Elsa'
             onMouseOver={ imageOver }
             onMouseOut={ imageOut}
             
