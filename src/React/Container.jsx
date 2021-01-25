@@ -1,20 +1,22 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
 import Nav from './Nav.jsx'
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
-import Elsa from './Elsa.jsx'
+import Main from './Main.jsx'
 
 
 const Container = () => {
     return (
+        <BrowserRouter>
         <div className='Container'>
-            CONTENT
             <Header />
             <Nav />
-            <Elsa />
+            <Main />
             <Footer />
         </div>
+        </BrowserRouter>
     );
     }
     export default Container; 
