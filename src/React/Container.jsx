@@ -4,9 +4,11 @@ import styled from 'styled-components';
 
 /* Scripts ------------------------*/
 import { mq } from '../common/media_queries.js';
+import useMediaQuery from '../common/useMediaQuery.js';
 
 /* Components ---------------------------*/
-import Nav from './Nav.jsx';
+import NavMobile from './Nav/NavMobile.jsx';
+import NavLarge from './Nav/NavLarge.jsx';
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import Main from './Main.jsx';
@@ -14,11 +16,18 @@ import Main from './Main.jsx';
 
 
 const Container = () => {
+
+        const { isSmall } = useMediaQuery();
+
     return (
        <BrowserRouter>
        <ContainerStyled className='Container'>
             <Header />
-            <Nav />
+            {
+                    isSmall
+                    ? <NavMobile />
+                    : <NavLarge />
+            }
             <Main />
             <Footer />
         </ContainerStyled>
