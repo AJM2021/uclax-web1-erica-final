@@ -37,15 +37,15 @@ const Container = () => {
     export default Container; 
 
     const ContainerStyled = styled.div`
-        background-color: pink;
+        background-color: white;
 
         @media ${mq.tablet} {
-                background-color: yellow;
+                background-color: white;
         }
         @media ${mq.desktop} {
-                background-color: maroon;
+                background-color: white;
         }
         @media ${mq.ultrawide} {
-                background-color: purple;
+                background-color: white;
         }
         `;

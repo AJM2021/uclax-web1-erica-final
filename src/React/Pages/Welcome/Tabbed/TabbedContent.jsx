@@ -6,8 +6,6 @@ import { mq } from '../../../../common/media_queries.js';
 
 const TabbedContent = ({chosenTab}) => {
 
-    console.log('TabbedContent chosenTab', chosenTab);
-
     return (
         <TabbedContentStyled className='TabbedContent'>
             <div className="left">
@@ -24,7 +22,7 @@ const TabbedContent = ({chosenTab}) => {
 export default TabbedContent;
 
 const TabbedContentStyled = styled.div`
-    background-color: teal;
+    background-color: #2f58c9;
     padding: 20px;
 
     @media ${mq.desktop} {

@@ -37,13 +37,13 @@ const TabbedNavItemStyled = styled.div`
      font-size: 12px;
      cursor: pointer;
 
-    background-color: #065757;
+    background-color: #132b6d;
 
     &:hover {
-            background-color: #032d2d; 
+            background-color: #10245c; 
     }
    &.active {
-       background-color: teal
+       background-color: #2f58c9
    }
     
 `;

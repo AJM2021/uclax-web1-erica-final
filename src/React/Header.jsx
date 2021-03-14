@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
         <div className='Header'>
-            HEADER
+            <h3>Erica Howard Consulting</h3>
         </div>
     );
 }

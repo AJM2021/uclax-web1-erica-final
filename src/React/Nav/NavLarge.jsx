@@ -19,7 +19,7 @@ const NavLargeStyled = styled.div`
 
     display: flex;
     justify-content: center;
-    background-color: #003232;
+    background-color: #2f58c9;
     padding: 20px;
 
     .Nav {
@@ -31,7 +31,7 @@ a {
     flex: 1;
     text-align: center;
     display: block;
-    background: teal;
+    background: #132b6d;
     color: white;
     text-decoration: none;
 
@@ -41,11 +41,11 @@ a {
     margin: 0px 5px;
 
     &.active {
-        background-color: #015150;
+        background-color: #0b1a44;
     }
     &:hover {
-        background-color: #02aca9;
-        color: #003232;
+        background-color: #10245c;
+        color: white
     }
 } 
 `;

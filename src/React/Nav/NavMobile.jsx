@@ -45,7 +45,7 @@ const NavMobileStyled = styled.div`
         width: 50px;
         height: 50px;
 
-        background-color: teal;
+        background-color: #2f58c9;
 
         text-align: center;
         padding-top: 9px;
@@ -76,7 +76,7 @@ const NavMobileStyled = styled.div`
 
     a {
         display: block;
-        background: teal;
+        background: #132b6d;
         color: white;
         text-decoration: none;
         padding: 10px;
@@ -84,11 +84,11 @@ const NavMobileStyled = styled.div`
         margin-bottom: 5px;
 
         &.active {
-            background-color: #015150;
+            background-color: #0b1a44;
         }
         &:hover {
-            background-color: #02aca9;
-            color: #003232;
+            background-color: #10245c;
+            color: white ;
         }
     }
 `;
